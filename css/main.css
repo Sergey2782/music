@@ -4,7 +4,6 @@ body {
   background-color: rgba(124, 121, 117, 1);
 }
 
-/* цвет фона и рамки навигационного меню */
 h3 {
   font-size: 40px;
   color: black;
@@ -21,6 +20,7 @@ span {
 	margin: 0;
 	padding: 0;
 }
+/* цвет фона и рамки навигационного меню */
 .navbar {
       background-color: gray;
       border-color: transparent;
@@ -54,7 +54,7 @@ span {
 }
 /* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
 .navbar-default .navbar-nav > li > a:hover{
-    color: gray;
+    color: #969191;
 }
 .navbar-default .navbar-nav > li > a:focus {
     color: #0c0c0b; 
@@ -121,7 +121,7 @@ span {
 /* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: transparent;
+        color: rgba(255, 255, 255, 0.7);
         background-color: transparent;
     }
 
@@ -162,7 +162,9 @@ span {
   margin-top: -25px;
 }
 .down {
-	margin-top: 140px;
+	margin-top: 220px;
+  font-family: Lato;
+  opacity: 0.95;
 }
 .dropdown-menu {
     background-color: rgba(255, 255, 255, 0.1) !important;
