@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Bitter|Raleway|Signika|Varela+Round');
+body {
+  background-color: rgba(124, 121, 117, 1);
+}
+
+/* цвет фона и рамки навигационного меню */
+h3 {
+  font-size: 40px;
+  color: black;
+}
+h4 {
+  font-size: 23px;
+}
+p {
+   font-size: 14px;
+   color: black;
+}
+
+span {
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+      background-color: gray;
+      border-color: transparent;
+      opacity: 0.9;
+      padding-top: 50px;
+      margin-bottom: 31px;
+}
+.navbar-collapse {
+  padding-bottom: 115px;
+}
+.navbar-default {
+     background-color: transparent;
+}
+
+/* цвет текста, содержащий название сайта или бренда */
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: Lato;
+     background-color: transparent;
+}
+/* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: rgba(0, 0, 0, 0.8);
+}
+/* Цвет пунктов навигационного меню */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: Lato;
+    font-size: 20px; 
+}
+/* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > li > a:hover{
+    color: gray;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #0c0c0b; 
+}
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: black;
+    background-color: #27ae60;
+}
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: black;
+    background-color: transparent;
+}
+/* Цвет стрелочки (треугольничка) у раскрывающихся пунктов меню */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: wwhite;
+    border-bottom-color: transparent;
+}
+/* Цвет стрелочки (треугольничка) при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .dropdown > a:hover .caret {
+    border-top-color: gray;
+    border-bottom-color: gray;
+}
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: black;
+    border-bottom-color: rgba(255, 255, 255, 0.6);
+}
+/* Цвет стрелочки (треугольничка), открывшегося пункта меню */
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: black;
+    border-bottom-color: white;
+}
+/* CSS стили для мобильных устройств */
+/* Цвет рамки у кнопки, которая открывает меню */
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+/* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: gray;
+    opacity: 0.5;
+}
+
+/* Цвет полосочек в кнопочке, которая открывает меню */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+
+/* Цвет пунктов меню в раскрывающихся списках */
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+  }
+}
+/* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: transparent;
+        background-color: transparent;
+    }
+
+/*-- фоновое изображение с гитарой----*/
+.splash {
+	background: url(../images/bg-correct.png) no-repeat center top;
+	/*text-align: center;*/
+	/*background-attachment: fixed;*/
+  margin-top: -170px;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-background-size: cover;
+}
+.splash h1 {
+	color: white;
+	font-size: 6vw;
+	font-weight: 100;
+	letter-spacing: 3px;
+  text-align: center;
+}
+.splash h2 {
+	color: white;
+  letter-spacing: 2px;
+	text-transform: uppercase;
+  font-size: 4vw;
+  text-align: center;
+}
+.navbar-brand {
+  font-size: 5.5vw;
+	letter-spacing: 3px;
+	padding-top: 10px;
+  line-height: 45px;
+  margin-top: -25px;
+}
+.down {
+	margin-top: 140px;
+}
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.dropdown-menu .divider {
+  background-color: black !important;
+  height: 2px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  background-color: transparent;
+}
+.dropdown-menu > li > a {
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.navbar-header {
+    min-height: 90px;
+}
+/* ----- стили для  иконки YOUTUBE  справа на md display-------*/
+.img-utube > a > img {
+  width: 60px;
+  border: 1.5px solid gray;
+  border-radius: 5px;
+  padding: 1px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.img-utube > a:hover .img-hov {
+  border-radius: 5px;
+  background-color: rgba(153, 143, 156, 0.67);
+}
+.img-utube > a:focus .img-hov  {
+  border-radius: 5px;
+  background-color: rgba(153, 143, 156, 0.67);
+}
+.splash-two {
+  margin-top: -100px;
+  background: transparent;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+}
+.splash-three {
+  background: url(../images/splash-two.jpg)  no-repeat center top; 
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+}
+.bord {
+  border: 3px solid gray;
+  padding-right: 0;
+  padding-left: 0;
+  width: 75%;
+  border-radius: 5px;
+}
+.inspire > h1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+}
+.pad {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bord-img {
+  border: 2px solid white;
+}
+.item-active > img {
+   width: 100%;
+}
+.item > img {
+  width: 100%;
+}
+.fa-line > i {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.centered {
+  text-align: center;
+} 
+.centered > a > i {
+   margin-right: 20px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+.centered > a > i:hover {
+  color: white; 
+  opacity: 0.5;
+}
+summary{
+  font-size: 15px;
+}
