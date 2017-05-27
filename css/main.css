@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Bitter|Raleway|Signika|Varela+Round');
 body {
   background: url(../images/b-g-myvideos.jpg);
+   background-position: center center;
+  width: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+  background-attachment: fixed;
 }
 h1 {
   font-size: 40px;
@@ -246,10 +254,7 @@ span {
 .item > img {
   width: 100%;
 }
-.fa-line > i {
-  margin-top: 50px;
-  margin-bottom: 25px;
-}
+
 .centered {
   text-align: center;
 } 
@@ -261,4 +266,18 @@ span {
 .centered > a > i:hover {
   color: white; 
   opacity: 0.5;
+}
+
+.big-size {
+   width: 400px;
+   border: 6px solid gray;
+   border-radius: 10px;
+}
+.big-size:hover {
+  border-color: rgba(255, 255, 255, 1);
+   opacity: 0.9;
+ }
+
+.hy-guys {
+  margin: 50px;
 }
