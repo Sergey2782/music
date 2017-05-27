@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Bitter|Raleway|Signika|Varela+Round');
 body {
-  background-color: rgba(124, 121, 117, 1);
+  background: url(../images/b-g-myvideos.jpg);
+}
+h1 {
+  font-size: 40px;
 }
 
-h3 {
-  font-size: 40px;
-  color: black;
-}
 h4 {
   font-size: 23px;
 }
@@ -15,7 +14,9 @@ p {
    font-size: 14px;
    color: black;
 }
-
+summary{
+  font-size: 15px;
+}
 span {
 	margin: 0;
 	padding: 0;
@@ -127,32 +128,46 @@ span {
 
 /*-- фоновое изображение с гитарой----*/
 .splash {
-	background: url(../images/bg-correct.png) no-repeat center top;
-	/*text-align: center;*/
-	/*background-attachment: fixed;*/
+  background: url(../images/bg-correct.png) no-repeat center top;
+  /*text-align: center;*/
+  /*background-attachment: fixed;*/
   margin-top: -170px;
-	background-position: center center;
-	min-height: 600px;
-	width: 100%;
-	background-size: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-background-size: cover;
+  background-position: center center;
+  min-height: 600px;
+  width: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
 }
 .splash h1 {
-	color: white;
-	font-size: 6vw;
-	font-weight: 100;
-	letter-spacing: 3px;
+  color: white;
+  font-size: 6vw;
+  font-weight: 100;
+  letter-spacing: 3px;
   text-align: center;
 }
-.splash h2 {
-	color: white;
-  letter-spacing: 2px;
-	text-transform: uppercase;
-  font-size: 4vw;
+
+/*---класс для фоновой картинки на странице видео---*/
+.splash-myvideos {
+   margin-top: -180px;
+}
+.splash-myvideos h1{
+  color: white;
+  font-size: 5vw;
+  font-weight: 100;
+  letter-spacing: 3px;
   text-align: center;
+}
+.splash-two {
+  margin-top: -100px;
+  background: transparent;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
 }
 .navbar-brand {
   font-size: 5.5vw;
@@ -205,23 +220,7 @@ span {
   border-radius: 5px;
   background-color: rgba(153, 143, 156, 0.67);
 }
-.splash-two {
-  margin-top: -100px;
-  background: transparent;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -background-size: cover;
-}
-.splash-three {
-  background: url(../images/splash-two.jpg)  no-repeat center top; 
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -background-size: cover;
-}
+
 .bord {
   border: 3px solid gray;
   padding-right: 0;
@@ -262,7 +261,4 @@ span {
 .centered > a > i:hover {
   color: white; 
   opacity: 0.5;
-}
-summary{
-  font-size: 15px;
 }
