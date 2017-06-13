@@ -158,15 +158,26 @@ span {
 }
 
 /*---класс для фоновой картинки на странице видео---*/
-.splash-myvideos {
+.splash-text {
    margin-top: -180px;
+   margin-bottom: 70px;
 }
-.splash-myvideos h1{
+.splash-text h1{
   color: white;
   font-size: 5vw;
   font-weight: 100;
   letter-spacing: 3px;
   text-align: center;
+}
+.splash-myvideos {
+   background: rgba(255, 255, 255, 0.25);
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+.video-vert-center {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .splash-two {
   margin-top: -100px;
