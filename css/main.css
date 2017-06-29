@@ -1,101 +1,119 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Bitter|Raleway|Signika|Varela+Round');
 @import url('https://fonts.googleapis.com/css?family=Monoton|Pacifico');
+
 body {
-  background: url(../images/b-g-myvideos.jpg);
-  background-position: center center;
-  width: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -background-size: cover;
-  background-attachment: fixed;
+    background: url(../images/b-g-myvideos.jpg);
+    background-position: center center;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+    background-attachment: fixed;
 }
 h1 {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 h4 {
-  font-size: 23px;
+    font-size: 23px;
 }
 p {
-   font-size: 14px;
-   color: black;
+    font-size: 14px;
+    color: black;
 }
 summary{
-  font-size: 15px;
+    font-size: 15px;
 }
 span {
-	margin: 0;
-	padding: 0;
+	  margin: 0;
+	  padding: 0;
 }
+
 /* цвет фона и рамки навигационного меню */
+
 .navbar {
-      background-color: gray;
-      border-color: transparent;
-      opacity: 0.9;
-      padding-top: 50px;
-      margin-bottom: 31px;
+    background-color: gray;
+    border-color: transparent;
+    opacity: 0.9;
+    padding-top: 50px;
+    margin-bottom: 31px;
 }
 .navbar-brand {
-  font-size: 5.5vw;
-  letter-spacing: 3px;
-  padding-top: 10px;
-  line-height: 45px;
-  margin-top: -25px;
+    font-size: 7.5vw;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 45px;
+    margin-top: -25px;
 }
 .navbar-collapse {
-  padding-bottom: 115px;
+    padding-bottom: 115px;
 }
 .navbar-default {
-     background-color: transparent;
+    background-color: transparent;
 }
 
 /* цвет текста, содержащий название сайта или бренда */
+
 .navbar-default .navbar-brand {
     color: white;
     font-family: Lato;
-     background-color: transparent;
+    background-color: transparent;
 }
+
 /* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.8);
 }
+
 /* Цвет пунктов навигационного меню */
+
 .navbar-default .navbar-nav > li > a {
     color: white;
     font-family: Lato;
     font-size: 20px; 
 }
+
 /* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+
 .navbar-default .navbar-nav > li > a:hover{
     color: #969191;
 }
 .navbar-default .navbar-nav > li > a:focus {
     color: #0c0c0b; 
 }
+
 /* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: black;
     background-color: #27ae60;
 }
+
 /* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
     color: black;
     background-color: transparent;
 }
+
 /* Цвет стрелочки (треугольничка) у раскрывающихся пунктов меню */
+
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: wwhite;
+    border-top-color: white;
     border-bottom-color: transparent;
 }
+
 /* Цвет стрелочки (треугольничка) при поднесении к нему курсора мышки или при его нахождении в фокусе */
+
 .navbar-default .navbar-nav > .dropdown > a:hover .caret {
     border-top-color: gray;
     border-bottom-color: gray;
@@ -104,20 +122,25 @@ span {
     border-top-color: black;
     border-bottom-color: rgba(255, 255, 255, 0.6);
 }
+
 /* Цвет стрелочки (треугольничка), открывшегося пункта меню */
+
 .navbar-default .navbar-nav > .open > a .caret, 
 .navbar-default .navbar-nav > .open > a:hover .caret, 
 .navbar-default .navbar-nav > .open > a:focus .caret {
     border-top-color: black;
     border-bottom-color: white;
 }
+
 /* CSS стили для мобильных устройств */
 /* Цвет рамки у кнопки, которая открывает меню */
+
 .navbar-default .navbar-toggle {
     border-color: black;
 }
 
 /* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: gray;
@@ -125,94 +148,39 @@ span {
 }
 
 /* Цвет полосочек в кнопочке, которая открывает меню */
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ecf0f1;
 }
 
 /* Цвет пунктов меню в раскрывающихся списках */
+
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: black;
   }
 }
+
 /* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: rgba(255, 255, 255, 0.7);
-        background-color: transparent;
-    }
 
-/*-- фоновое изображение с гитарой----*/
-.splash {
-  background: url(../images/bg-correct.png) no-repeat center top;
-  /*text-align: center;*/
-  /*background-attachment: fixed;*/
-  margin-top: -170px;
-  background-position: center center;
-  min-height: 600px;
-  width: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -background-size: cover;
-}
-.splash h1 {
-  color: white;
-  font-size: 6vw;
-  font-weight: 100;
-  letter-spacing: 3px;
-  text-align: center;
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
 }
 
-/*---класс для фоновой картинки на странице видео---*/
-.splash-text {
-   margin-top: -180px;
-   margin-bottom: 70px;
-}
-.splash-text h1{
-  color: white;
-  font-size: 5vw;
-  font-weight: 100;
-  letter-spacing: 3px;
-  text-align: center;
-}
-.splash-myvideos {
-   background: rgba(255, 255, 255, 0.25);
-  margin-bottom: 20px;
-  padding-bottom: 30px;
-}
-.video-vert-center {
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.splash-two {
-  margin-top: -100px;
-  background: transparent;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -background-size: cover;
-}
-
-.down {
-	margin-top: 220px;
-  opacity: 0.95;
-}
 .dropdown-menu {
     background-color: rgba(255, 255, 255, 0.1);
 }
 .dropdown-menu .divider {
-  background-color: black;
-  height: 2px;
+    background-color: black;
+    height: 2px;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-  background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    background-color: transparent;
 }
 .dropdown-menu > li > a {
     color: black;
@@ -222,153 +190,204 @@ span {
 .navbar-header {
     min-height: 90px;
 }
+
+/*-- фоновое изображение с гитарой----*/
+
+.splash {
+    background: url(../images/bg-correct.png) no-repeat center top;
+    /*text-align: center;*/
+    margin-top: -170px;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+}
+
+/*---класс для фоновой картинки на странице видео---*/
+
+.splash-text {
+     margin-top: -180px;
+     margin-bottom: 70px;
+}
+.splash-text h1{
+    color: white;
+    font-size: 5vw;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.splash-myvideos {
+    background: rgba(255, 255, 255, 0.25);
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+.video-vert-center {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.splash-two {
+    margin-top: -55px;
+    background: transparent;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+}
+
 /* ----- стили для  иконки YOUTUBE  справа на md display-------*/
+
 .img-utube > a > img {
-  width: 60px;
-  border: 1.5px solid gray;
-  border-radius: 5px;
-  padding: 1px;
-  margin-top: -5px;
-  margin-bottom: 5px;
-  margin-left: 10px;
+    width: 60px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
 }
 .img-utube > a:hover .img-hov {
-  border-radius: 5px;
-  background-color: rgba(153, 143, 156, 0.67);
+    border-radius: 5px;
+    background-color: rgba(153, 143, 156, 0.67);
 }
 .img-utube > a:focus .img-hov  {
-  border-radius: 5px;
-  background-color: rgba(153, 143, 156, 0.67);
+    border-radius: 5px;
+    background-color: rgba(153, 143, 156, 0.67);
 }
-
 .bord {
-  border: 3px solid gray;
-  padding-right: 0;
-  padding-left: 0;
-  width: 75%;
-  border-radius: 5px;
+    border: 3px solid gray;
+    padding-right: 0;
+    padding-left: 0;
+    width: 75%;
+    border-radius: 5px;
 }
 .inspire > h1 {
-  font-size: 40px;
-  line-height: 40px;
-  color: white;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
 }
 .pad {
-  margin-top: 50px;
-  margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .bord-img {
-  border: 2px solid white;
+    border: 2px solid white;
 }
 .item-active > img {
-   width: 100%;
+    width: 100%;
 }
 .item > img {
-  width: 100%;
+    width: 100%;
 }
-
 .centered {
-  text-align: center;
+    text-align: center;
 } 
 .centered > a > i {
-   margin-right: 20px;
-   margin-top: 8px;
-   margin-bottom: 8px;
+     margin-right: 20px;
+     margin-top: 8px;
+     margin-bottom: 8px;
 }
 .centered > a > i:hover {
-  color: white; 
-  opacity: 0.5;
+    color: white; 
+    opacity: 0.5;
 }
-
 .big-size {
    width: 400px;
    border: 6px solid gray;
    border-radius: 10px;
 }
 .big-size:hover {
-  border-color: rgba(255, 255, 255, 1);
-   opacity: 0.9;
+    border-color: rgba(255, 255, 255, 1);
+    opacity: 0.9;
  }
-
 .hy-guys {
-  margin: 50px;
+    margin: 50px;
 }
 
-/* ------------ animation -------------*/
+/* ------------div with animation -------------*/
 
+.middle {
+    margin-top: 250px;
+}
 .world {
-  text-transform: uppercase;
-  font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+    font-family: 'Monoton', cursive;
 }
 .world > p {  
-  box-shadow: 15px 15px 20px 10px rgba(152, 124, 115,  .5);
-  font-size: 3.6em;
-  color: #ea6060;
-  text-align: center;
-  min-height: 180px;
+    box-shadow: 20px 15px 10px 5px rgba(152, 124, 115,  .5);
+    font-size: 3.7em;
+    color: #ea6060;
+    text-align: center;
+    display: block;
 }
 .red{
-   color: #ea6060;
+    color: #ea6060;
 }
 .m {
-   color: #ea6060;
+    color: #ea6060;
 }
-@keyframes flash_two {
-  0% { color: #ea6060, opacity: 1; }
-  40% { opacity: 1; }
-  40.1% { opacity: 0.15; }
-  41.5% { opacity: 0.75; }
-  41.8% { opacity: 1; }
-  50% { opacity: 1; }
-  50.02% { opacity: 0.08; }
-  50.95% { opacity: 0.3; }
-  81.5% { opacity: 1; }
-  85%  { opacity: 0.1; }
-  86%  { opacity: 0.1; }
-  86%  { opacity: 0.7; }
-  88%  { opacity: 0.85; }
-  88%  { opacity: 0.85; }
-  89%  { opacity: 1; }
-  100% { opacity; 1; }
+/*======= animation =====*/
+@keyframes anime_one {
+    0% { color: #ea6060; opacity: 1; }
+    40% { opacity: 1; }
+    40.1% { opacity: 0.15; }
+    41.5% { opacity: 0.75; }
+    41.8% { opacity: 1; }
+    50% { opacity: 1; }
+    50.02% { opacity: 0.08; }
+    50.95% { opacity: 0.3; }
+    81.5% { opacity: 1; }
+    85%  { opacity: 0.1; }
+    86%  { opacity: 0.1; }
+    86%  { opacity: 0.7; }
+    88%  { opacity: 0.85; }
+    88%  { opacity: 0.85; }
+    89%  { opacity: 1; }
+    100% { opacity: 1; }
 }
-.flash_two {
-  animation: flash_two 7s infinite;
-  color: #ea6060;
+.anime_one {
+    animation: anime_one 7s infinite;
+    color: #ea6060;
 }
-@keyframes flash_three {
-  0% { color: #b3acad; opacity: 1; }
-  10% { opacity: 1; }
-  10.1% { opacity: 0.15; }
-  11.5% { opacity: 0.75; }
-  11.8% { opacity: 1; }
-  60% { opacity: 1; }
-  60.02% { opacity: 0.08; }
-  60.95% { opacity: 0.3; }
-  61.5% { opacity: 1; }
-  65%  { opacity: 0.1; }
-  75%  { opacity: 0.1; }
-  76%  { opacity: 0.7; }
-  78%  { opacity: 0.85; }
-  78%  { opacity: 0.85; }
-  79%  { opacity: 1; }
-  100% { opacity; 1; }
+@keyframes anime_two {
+    0% { color: #b3acad; opacity: 1; }
+    10% { opacity: 1; }
+    10.1% { opacity: 0.15; }
+    11.5% { opacity: 0.75; }
+    11.8% { opacity: 1; }
+    60% { opacity: 1; }
+    60.02% { opacity: 0.08; }
+    60.95% { opacity: 0.3; }
+    61.5% { opacity: 1; }
+    65%  { opacity: 0.1; }
+    75%  { opacity: 0.1; }
+    76%  { opacity: 0.7; }
+    78%  { opacity: 0.85; }
+    78%  { opacity: 0.85; }
+    79%  { opacity: 1; }
+    100% { opacity: 1; }
 }
-.flash_three {
-  animation: flash_three 5s infinite;
-  color: #b3acad;
+.anime_two {
+    animation: anime_two 5s infinite;
+    color: #b3acad;
 }
-@keyframes flash {
-  0% { color: #36d9f5; }
-  0.1% {opacity: 0.15; }
-  0.7% { opacity: 0.75; }
-  1% { opacity: 1; }
-  50% { opacity: 1; }
-  50.02% { opacity: 0.8; }
-  50.95% { opacity: 0.3; }
-  51.5% { opacity: 1; }
-  100% { opacity: 1; }
+@keyframes anime_three {
+    0% { color: #36d9f5; }
+    0.1% {opacity: 0.15; }
+    0.7% { opacity: 0.75; }
+    1% { opacity: 1; }
+    50% { opacity: 1; }
+    50.02% { opacity: 0.8; }
+    50.95% { opacity: 0.3; }
+    51.5% { opacity: 1; }
+    100% { opacity: 1; }
 }
-.flash {
-  animation: flash 7s infinite; 
-  color: #36d9f5;
+.anime_three {
+    animation: anime_three 7s infinite; 
+    color: #36d9f5;
 }
