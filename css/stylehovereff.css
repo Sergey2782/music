@@ -51,10 +51,12 @@
   -o-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  z-index: 1000;
 }
 
 .ehover1:hover .overlay {
   opacity: 1;
+  z-index: 1000;
 }
 
 .ehover1:hover h2, .ehover1:hover button.info {
@@ -64,6 +66,7 @@
   -o-transform: translatey(0);
   -webkit-transform: translatey(0);
   transform: translatey(0);
+  z-index: 1000;
 }
 
 .ehover1:hover button.info {
@@ -71,11 +74,13 @@
   -o-transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+  z-index: 1000;
 }
  
  .ehover1:hover button.info > a {
     text-decoration: none;
     color: white;
+    z-index: 1000;
 }
 
 .hover {
@@ -125,7 +130,7 @@
 }
 
 .hover button.info:hover {
-  box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 5px #fff;z-index: 1000;
 }
 
 /* styling to remove box shadow and border from buttons for last few effects */
@@ -138,6 +143,7 @@
 
 .hover button.nullbutton:hover {
   box-shadow: none;
+  z-index: 1000;
 }
 
 /* remove the blue line that shows on modal buttons after you have open and close a modal */
@@ -198,6 +204,7 @@ cursor: pointer;
 
 .hover button.info:hover {
   box-shadow: 0 0 5px #fff;
+  z-index: 1000;
 }
 
 /* styling to remove box shadow and border from buttons for last few effects */
@@ -257,10 +264,12 @@ cursor: pointer;
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  z-index: 1000;
 }
 
 .ehover1:hover .overlay {
   opacity: 1;
+  z-index: 1000;
 }
 
 .ehover1:hover h2, .ehover1:hover button.info {
@@ -268,9 +277,11 @@ cursor: pointer;
   -ms-transform: translatey(0);
   -webkit-transform: translatey(0);
   transform: translatey(0);
+  z-index: 1000;
 }
 
 .ehover1:hover button.info {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+  z-index: 1000;
 }
