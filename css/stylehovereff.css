@@ -1,9 +1,8 @@
 
-
 /*----------------- hover effects - -------------отрицательный padding - в FF  - вылазила рамка в слайдере  за границы */
 
 .col-lg-3, .col-md-4, .col-sm-6, .col-xs-12 {
-  padding: -5px 5px 5px 20px;
+  padding: -5px 20px 20px 20px;
 }
 
 /*----------------- hover effects - -------------*/
