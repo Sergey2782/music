@@ -1,3 +1,4 @@
+@import url('css/stylehovereff.css');
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Bitter|Raleway|Signika|Varela+Round');
 @import url('https://fonts.googleapis.com/css?family=Monoton|Pacifico');
@@ -24,9 +25,7 @@ p {
     font-size: 14px;
     color: black;
 }
-summary{
-    font-size: 15px;
-}
+
 span {
 	  margin: 0;
 	  padding: 0;
@@ -340,7 +339,9 @@ a {
 .m {
     color: #ea6060;
 }
+
 /*======= animation =====*/
+
 @keyframes anime_one {
     0% { color: #ea6060; opacity: 1; }
     40% { opacity: 1; }
@@ -401,43 +402,15 @@ a {
     color: #36d9f5;
 }
 
-/*----клас добавляющийся по клику на изображение ------*/
-/*.big_image {
-     width: 250%;
-}
-*/
-/*
-.imgsm {
-  /*background: url(../images/guys1.jpg);
-  display: none;
-  min-height: 550px;
-   background-position: center center;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -background-size: cover;
-    
-}
-*/
 
-/*------- заранее к изображениям установлен прозрачный бордер чтобы не менялся размер images - при добавлении "active-item" */
+
+/*--------  добавлябщийся стиль  к рандомно выбранным элементам - строка  с  IMG музыкантов "active_item" */
 
 .active_one {
     border: 5px solid transparent;
 }
-.active_one:hover, 
-.active_one:focus {
-    border: 5px solid #36d9f5;
-    opacity: 0.95;
-    transition: 0.4s;
-}
-
-/*--------  добавлябщийся стиль  к рандомно выбранным элементам - строка  с  IMG музыкантов */
-
 .active-item{
     border: 5px solid #ea6060;
-    opacity: 0.9;
     border-radius: 5px;
 }
 
@@ -458,4 +431,3 @@ a {
     outline: none;
  }
 
- 
