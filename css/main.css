@@ -1,4 +1,4 @@
-@import url('css/stylehovereff.css');
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Bitter|Raleway|Signika|Varela+Round');
 @import url('https://fonts.googleapis.com/css?family=Monoton|Pacifico');
@@ -407,11 +407,11 @@ a {
 /*--------  добавлябщийся стиль  к рандомно выбранным элементам - строка  с  IMG музыкантов "active_item" */
 
 .active_one {
-    border: 5px solid transparent;
+    border: 2px solid transparent;
 }
 .active-item{
-    border: 5px solid #ea6060;
-    border-radius: 5px;
+    border: 3px solid #36d9f5;
+    border-radius: 2px;
 }
 
 /*-----------  стили для -- полосы с приглашением зайти на страницу с видео-файлами--------------*/
