@@ -1,4 +1,12 @@
+//   --- modal window in LETTER- button
 
+$(document).ready(function(){
+  //при нажатию на любую кнопку, имеющую класс .btn
+  $(".modal_m").click(function() {
+    //открыть модальное окно с id="myModal"
+    $("#myModal").modal('show');
+  });
+});
 
 window.onload = function(){
 		var items = document.querySelectorAll('.active_one');
