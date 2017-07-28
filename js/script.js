@@ -6,6 +6,12 @@ $(document).ready(function(){
     //открыть модальное окно с id="myModal"
     $("#myModal").modal('show');
   });
+   /*var img = $("img");
+  var winW = $(window).width()/4 - img.width()/4;
+  var hover = $(".hover .overlay");
+ hover.width()=img.width();
+  img.css("left", winW);
+ */ 
 });
 
 window.onload = function(){
