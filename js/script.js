@@ -1,18 +1,4 @@
-//   --- modal window in LETTER- button
-
-$(document).ready(function(){
-  //при нажатию на любую кнопку, имеющую класс .btn
-  $(".modal_m").click(function() {
-    //открыть модальное окно с id="myModal"
-    $("#myModal").modal('show');
-  });
-   /*var img = $("img");
-  var winW = $(window).width()/4 - img.width()/4;
-  var hover = $(".hover .overlay");
- hover.width()=img.width();
-  img.css("left", winW);
- */ 
-});
+// --- function  bypasses images and add class - random
 
 window.onload = function(){
 		var items = document.querySelectorAll('.active_one');
@@ -30,3 +16,17 @@ window.onload = function(){
 	function mtRand(min, max){
 		return Math.floor(Math.random() * (max - min +1));
 }
+
+	   
+
+//--- function to hide mail
+
+  var m = new Array('moc.liamg@432nugresm'); // -- few emails
+
+   function mylo(n) {
+      var w = window.open();
+      w.window.location="mailto:" + m[n].split('').reverse().join('');
+    }
+
+
+

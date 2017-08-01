@@ -5,7 +5,7 @@
 
 body {
     background: url(../images/b-g-myvideos.jpg);
-    background-position: center center;
+    background-position: no-repeat center center fixed;
     width: 100%;
     background-size: 100%;
     -webkit-background-size: cover;
@@ -372,7 +372,6 @@ a {
     11.8% { opacity: 1; }
     60% { opacity: 1; }
     60.02% { opacity: 0.08; }
-    60.95% { opacity: 0.3; }
     61.5% { opacity: 1; }
     65%  { opacity: 0.1; }
     75%  { opacity: 0.1; }
@@ -384,6 +383,10 @@ a {
 }
 .anime_two {
     animation: anime_two 5s infinite;
+    -webkit-animation:anime_two 5s infinite;
+    -moz-animation:anime_two 5s infinite;
+    -ms-animation: anime_two 5s infinite;
+    -o-animation: anime_two 5s infinite;
     color: #b3acad;
 }
 @keyframes anime_three {
@@ -412,6 +415,7 @@ a {
 .active-item{
     border: 3px solid #36d9f5;
     border-radius: 2px;
+    opacity: 0.9;
 }
 
 /*-----------  стили для -- полосы с приглашением зайти на страницу с видео-файлами--------------*/
