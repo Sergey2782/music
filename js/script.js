@@ -21,12 +21,15 @@ window.onload = function(){
 
 //--- function to hide mail
 
+  var btnClickMail = document.querySelector('.cl');
   var m = new Array('moc.liamg@432nugresm'); // -- few emails
 
-   function mylo(n) {
+  btnClickMail.onclick = function () {
       var w = window.open();
-      w.window.location="mailto:" + m[n].split('').reverse().join('');
+      w.window.location="mailto:" + m[0].split('').reverse().join('');
     }
+;
 
+   
 
 
